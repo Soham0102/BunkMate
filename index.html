@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BunkMate - Attendance Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Dark Mode Toggle -->
+        <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+
+        <!-- BunkMate Logo -->
+        <img src="bunkmate-logo.png" alt="BunkMate Logo" class="logo">
+
+        <h1>BunkMate - Attendance Calculator</h1>
+
+        <label>Total Lectures Conducted:</label>
+        <input type="number" id="totalLectures" placeholder="Enter total lectures">
+
+        <label>Lectures Attended:</label>
+        <input type="number" id="attendedLectures" placeholder="Enter attended lectures">
+
+        <label>Desired Attendance (%):</label>
+        <input type="number" id="desiredAttendance" placeholder="Enter desired percentage">
+
+        <button onclick="calculateAttendance()">Calculate</button>
+
+        <h2 id="result"></h2>
+
+        <!-- Attendance History -->
+        <h3>📊 Attendance History</h3>
+        <ul id="historyList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

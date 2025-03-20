@@ -1,0 +1,17 @@
+{
+    "name": "BunkMate",
+    "short_name": "BunkMate",
+    "description": "Attendance Manager & Bunk Calculator",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007BFF",
+    "icons": [
+      {
+        "src": "bunkmate-logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
